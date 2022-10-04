@@ -1,0 +1,65 @@
+body {
+    .bostami__resume {
+        .resume__card {
+            border: 2px solid rgb(33, 36, 37, 0.7);
+            overflow: hidden;
+            padding-left: 1.25rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-radius: 0.725rem;
+            span {
+                font-size: .875rem;
+                color: #B7B7B7;
+            }
+            h3 {
+                font-size: 20px;
+                color: #FFFFFF;
+            }
+            p {
+                font-size: 16px;
+                color: #B7B7B7;
+            }
+        }
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: rgb(17, 17, 17);
+        .resume {
+            i {
+                color: #f95054;
+                font-size: 1.75rem;
+            }
+            //.education__items {
+            //padding-left: 209px;
+        }
+        .resume__static__item {
+            background-color: #0D0D0D;
+            .static {
+                h6 {
+                    color: white;
+                }
+                span {
+                    color: #526377;
+                }
+                .progress {
+                    height: 4px;
+                }
+            }
+            .static__item {
+                button {
+                    cursor: default;
+                    margin: 7px;
+                    padding: 8px 20px;
+                    border: 1px solid #1C1C1C;
+                    border-radius: 15px;
+                    color: #A6A6A6;
+                    background-color: #1C1C1C;
+                }
+            }
+        }
+    }
+    footer {
+        background-color: #212425 !important;
+        color: #A6A6A6;
+        font-size: 16px;
+    }
+}

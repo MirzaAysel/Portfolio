@@ -1,0 +1,55 @@
+body .bostami__resume {
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+}
+body .bostami__resume .resume__card {
+  border: 2px solid rgba(33, 36, 37, 0.7);
+  overflow: hidden;
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.725rem;
+}
+body .bostami__resume .resume__card span {
+  font-size: 0.875rem;
+  color: #B7B7B7;
+}
+body .bostami__resume .resume__card h3 {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+body .bostami__resume .resume__card p {
+  font-size: 16px;
+  color: #B7B7B7;
+}
+body .bostami__resume .resume i {
+  color: #f95054;
+  font-size: 1.75rem;
+}
+body .bostami__resume .resume__static__item {
+  background-color: #0D0D0D;
+}
+body .bostami__resume .resume__static__item .static h6 {
+  color: white;
+}
+body .bostami__resume .resume__static__item .static span {
+  color: #526377;
+}
+body .bostami__resume .resume__static__item .static .progress {
+  height: 4px;
+}
+body .bostami__resume .resume__static__item .static__item button {
+  cursor: default;
+  margin: 7px;
+  padding: 8px 20px;
+  border: 1px solid #1C1C1C;
+  border-radius: 15px;
+  color: #A6A6A6;
+  background-color: #1C1C1C;
+}
+body footer {
+  background-color: #212425 !important;
+  color: #A6A6A6;
+  font-size: 16px;
+}/*# sourceMappingURL=resume.css.map */

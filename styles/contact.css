@@ -1,0 +1,65 @@
+body .bostami__contact {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+}
+body .bostami__contact .bostami__form {
+  margin-bottom: 80px !important;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+body .bostami__contact .bostami__form span {
+  font-size: 1.5625rem;
+  color: gray;
+}
+body .bostami__contact .bostami__form form span {
+  color: black;
+  font-size: 16px;
+}
+body .bostami__contact .bostami__form form input {
+  background-color: rgb(17, 17, 17);
+  color: white;
+  border: 0;
+  border-bottom: 1px solid #A6A6A6;
+  border-radius: 0%;
+}
+body .bostami__contact .bostami__form form input:focus {
+  box-shadow: none;
+  border-color: #FA5252;
+}
+body .bostami__contact .bostami__form form input:focus + #label_email {
+  color: #1773EA;
+  margin-bottom: 9px;
+}
+body .bostami__contact .bostami__form form input:focus + #label_name {
+  color: #FA5252;
+}
+body .bostami__contact .bostami__form form input:focus + #label_message {
+  color: slateblue;
+}
+body .bostami__contact .bostami__form form label {
+  color: gray;
+}
+body .bostami__contact .bostami__form form button {
+  color: white;
+  border: 2px solid gray;
+  border-radius: 8px;
+  background-color: rgb(17, 17, 17);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: background 1s;
+}
+body .bostami__contact .bostami__form form button:hover {
+  border: 2px solid #FA5252;
+  background: linear-gradient(90deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+}
+body .bostami__contact footer {
+  background-color: #212425 !important;
+  color: #A6A6A6;
+  font-size: 16px;
+}/*# sourceMappingURL=contact.css.map */

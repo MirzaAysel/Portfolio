@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  background-image: url(../images/bgtwo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+body .portfolio .bostami {
+  background-image: url(../images/bgtwo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+body .portfolio .bostami .navbar .navbar__top__items {
+  background-color: black !important;
+}
+body .portfolio .bostami .navbar .navbar__links {
+  background-color: rgb(29, 29, 29);
+}
+body .portfolio .bostami .navbar .navbar__links a {
+  font-size: 15px;
+}
+body .portfolio .bostami .navbar .navbar__links a i {
+  font-size: 22px;
+}
+body .portfolio .bostami .navbar .navbar__links a:hover {
+  color: #FA5252;
+}
+body .portfolio .bostami__menu__item {
+  margin-bottom: -80px;
+}
+@media screen and (max-width: 1352px) {
+  body .portfolio .bostami__menu__item {
+    margin-right: 20% !important;
+  }
+}
+body .portfolio .bostami__menu__item .bostami__menu__items {
+  width: 550px;
+  height: 145px;
+  background-color: #0D0D0D;
+  border-radius: 20px;
+}
+body .portfolio .bostami__menu__item .bostami__menu__items .menu__link {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #212425;
+  color: #A6A6A6;
+}
+body .portfolio .bostami__menu__item .bostami__menu__items .menu__link:hover {
+  background: linear-gradient(90deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+}
+body .portfolio .bostami__menu__item .bostami__menu__items .menu__link:hover a {
+  color: white;
+}
+body .portfolio .bostami__menu__item .bostami__menu__items .menu__link a {
+  color: #A6A6A6;
+  align-items: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+body .portfolio .bostami__menu__item .bostami__menu__items .menu__link a i {
+  font-size: 22px;
+}
+body .portfolio .bostami__about .about {
+  margin-top: 80px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(17, 17, 17);
+}
+@media screen and (max-width: 991px) {
+  body .portfolio .bostami__about .about {
+    margin-top: -30px;
+  }
+}
+body .portfolio .bostami__about .about .about__card {
+  border: 2px solid rgba(33, 36, 37, 0.7);
+  overflow: hidden;
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+}
+body .portfolio .bostami__about .about .about__card i {
+  font-size: 2.5rem;
+}
+body .portfolio .bostami__about .about .about__card p {
+  color: #808080;
+  line-height: 2rem;
+}
+body .portfolio .bostami__about .about .clients {
+  background-color: #0D0D0D;
+  overflow: hidden;
+  border-radius: 15px;
+}
+body .portfolio .bostami__about .about .clients .swiper {
+  width: 700px;
+  height: 200px;
+}
+body .portfolio .bostami__about .about footer {
+  color: #A6A6A6;
+  font-size: 16px;
+}
+body .portfolio .bostami__about .bostami__person__item {
+  border-radius: 15px;
+  background-color: rgb(17, 17, 17);
+}
+@media screen and (min-width: 991px) {
+  body .portfolio .bostami__about .bostami__person__item {
+    height: 750px;
+  }
+}
+@media screen and (max-width: 991px) {
+  body .portfolio .bostami__about .bostami__person__item {
+    height: 1100px;
+    margin-top: -18px;
+  }
+}
+body .portfolio .bostami__about .bostami__person__item h3 {
+  text-align: center;
+  color: #A6A6A6;
+  background-color: #1D1D1D;
+  font-size: 16px;
+  padding: 6px 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+  border-radius: 8px;
+}
+body .portfolio .bostami__about .bostami__person__item h2 {
+  font-size: 26px;
+}
+body .portfolio .bostami__about .bostami__person__item .sosial__link a {
+  background-color: #212425;
+  text-decoration: none;
+  border-radius: 5px;
+}
+body .portfolio .bostami__about .bostami__person__item .sosial__link a .pink {
+  color: #E14A84 !important;
+}
+body .portfolio .bostami__about .bostami__person__item .sosial__link a i {
+  text-align: center;
+  font-size: 20px;
+}
+body .portfolio .bostami__about .bostami__person__item button {
+  margin-top: 40px;
+  font-size: 18px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 15px;
+  background: linear-gradient(90deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+}
+body .portfolio .bostami__about .bostami__person__item button i {
+  font-size: 20px;
+}
+body .portfolio .bostami__about .bostami__person__item .person__img {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 991px) {
+  body .portfolio .bostami__about .bostami__person__item .person__img {
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 991px) {
+  body .portfolio .bostami__about .bostami__person__item .person__img {
+    padding-top: 50px;
+  }
+}
+body .portfolio .bostami__about .bostami__person__item .person__img img {
+  border-radius: 15px;
+  width: 240px;
+  height: 240px;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items {
+  border-radius: 15px;
+  background-color: #1d1d1d;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items i {
+  border-radius: 5px;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  background-color: #000000;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .phone__icon {
+  color: #e93b81;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .contact__text span {
+  font-weight: bolder;
+  font-size: 16px;
+  color: #3d3a3a;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .contact__text p {
+  font-size: 16px;
+  color: white;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .email__icon {
+  color: #6ab5b9;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .location__icon {
+  color: #FD7590;
+}
+body .portfolio .bostami__about .bostami__person__item .person__contact__items .line {
+  height: 1px;
+  width: 85%;
+  background-color: #A6A6A6;
+}/*# sourceMappingURL=index.css.map */
