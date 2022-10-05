@@ -1,7 +1,11 @@
 body {
     .bostami__contact {
+        @media screen and (max-width: 991px) {
+            margin-top: -30px;
+        }
+        margin-top: 80px;
         //padding: 50px 50px 0 50px;
-        margin-bottom: 30px;
+        margin-bottom: 49px;
         border-radius: 15px;
         overflow: hidden;
         background-color: rgb(17, 17, 17);

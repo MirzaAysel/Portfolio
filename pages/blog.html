@@ -12,85 +12,236 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-scrollbar@latest/simple-scrollbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../styles/blog.css">
+    <link rel="stylesheet" href="../styles/index.css">
 </head>
 
 <body>
-    <div class="">
-        <div class=" justify-content-end">
-            <div class="blogs  col-12 col-lg-8 ">
-                <div class="container">
-                    <h2 class="text-light my-3">
-                        Blogs
-                    </h2>
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-6 py-4">
-                            <div class="blogs__card px-3">
-                                <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="portfolio">
+        <div class="m-lg-5 d-none d-lg-block">
+            <img src="../images/logo.png" alt="">
 
-                                </div>
-                                <div class="blogs__card__text">
-                                    <div class="py-3">
-                                        <span>17 april</span>
-                                        <span class="mx-2">Inspiration</span>
-                                    </div>
-                                    <h3 data-bs-toggle="modal" data-bs-target="#exampleModal">How to Own Your Audience by <br> Creating an Email List.</h3>
-                                </div>
-                            </div>
-                        </div>
+        </div>
+        <div class="bostami">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-0 d-lg-none">
+                <div class="container-fluid p-0">
+                    <div class="navbar__top__items d-flex justify-content-between w-100 p-3">
+                        <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar__links navbar-nav px-3">
+                            <a class="nav-link active" aria-current="page" href="../pages/index.html">
+                                <i class="bi bi-person-fill mx-1"></i> About</a>
 
-                        <div class="col-12 col-lg-6 py-4">
-                            <div class="blogs__card px-3">
-                                <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <a class="nav-link active" aria-current="page" href="../pages/resume.html">
+                                <i class="bi bi-file-earmark-text mx-1"></i> Resume</a>
 
-                                </div>
-                                <div class="blogs__card__text">
-                                    <div class="py-3">
-                                        <span>17 april</span>
-                                        <span class="mx-2">Inspiration</span>
-                                    </div>
-                                    <h3 data-bs-toggle="modal2" data-bs-target="#exampleModal2">How to Own Your Audience by <br> Creating an Email List.</h3>
-                                </div>
-                            </div>
+                            <a class="nav-link active" aria-current="page" href="../pages/works.html">
+                                <i class="bi bi-briefcase-fill mx-1"></i> Works</a>
+
+                            <a class="nav-link active" aria-current="page" href="../pages/blog.html">
+                                <i class="bi bi-postage mx-1"></i> Blogs</a>
+
+                            <a class="nav-link active" aria-current="page" href="../pages/contact.html">
+                                <i class="bi bi-file-person-fill mx-1"></i> Contact</a>
                         </div>
                     </div>
+                </div>
+            </nav>
 
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-6 py-4">
-                            <div class="blogs__card px-3 ">
-                                <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
-
-                                </div>
-                                <div class="blogs__card__text">
-                                    <div class="py-3">
-                                        <span>17 april</span>
-                                        <span class="mx-2">Inspiration</span>
-                                    </div>
-                                    <h3 data-bs-toggle="modal" data-bs-target="#exampleModal">How to Own Your Audience by <br> Creating an Email List.</h3>
-                                </div>
+        </div>
+        <div class="bostami__menu__item row justify-content-end">
+            <div class="col-lg-5 col-12 py-5 mx-3">
+                <div class="bostami__menu__items d-lg-block d-none">
+                    <div class="container">
+                        <div class="bostami__menu d-flex justify-content-center pt-3">
+                            <div class="menu__link  mx-2 my-3 d-flex justify-content-center pt-3">
+                                <a href="../pages/index.html">
+                                    <i class="bi bi-person-fill mx-2"></i> <br> About
+                                </a>
                             </div>
-                        </div>
 
-                        <div class="col-12 col-lg-6 py-4">
-                            <div class="blogs__card px-3 ">
-                                <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
-
-                                </div>
-                                <div class="blogs__card__text">
-                                    <div class="py-3">
-                                        <span>17 april</span>
-                                        <span class="mx-2">Inspiration</span>
-                                    </div>
-                                    <h3 data-bs-toggle="modal2" data-bs-target="#exampleModal2">How to Own Your Audience by <br> Creating an Email List.</h3>
-                                </div>
+                            <div class="menu__link  mx-2 my-3 d-flex justify-content-center pt-3">
+                                <a href="../pages/resume.html">
+                                    <i class="bi bi-file-earmark-text mx-2"></i> <br> Resume
+                                </a>
                             </div>
+
+                            <div class="menu__link  mx-2 my-3 d-flex justify-content-center pt-3">
+                                <a href="../pages/Works.html">
+                                    <i class="bi bi-briefcase-fill mx-2"></i> <br> Works
+                                </a>
+                            </div>
+
+                            <div class="menu__link mx-2 my-3 d-flex justify-content-center pt-3">
+                                <a href="../pages/blog.html">
+                                    <i class="bi bi-postage mx-2"></i> <br> Blogs
+                                </a>
+                            </div>
+
+                            <div class="menu__link m-2 my-3 d-flex justify-content-center pt-3">
+                                <a href="../pages/contact.html">
+                                    <i class="bi bi-file-person-fill mx-2"></i> <br> Contact
+                                </a>
+                            </div>
+
+
+
+
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
 
+
+        <div class="bostami__about">
+            <div class="row">
+                <div class=" bostami__person__item col-lg-3 col-12 mx-0 mx-lg-4 mx-xl-5 sticky-lg-top d-lg-block d-none">
+                    <h1 class="text-light fw-bolder m-5 d-lg-none">About Me
+                    </h1>
+                    <div class=" person__img">
+                        <img class="img-fluid" src="../images/profile.jpg" alt="">
+                    </div>
+                    <h2 class="text-center text-light my-3">Monalisa Ashley</h2>
+
+                    <h3 class="">Ui/Ux Designer</h3>
+
+                    <div class="sosial__link d-flex justify-content-center">
+                        <a class="py-1 px-2 m-1" href="#"><i class="bi bi-facebook "></i></a>
+                        <a class="py-1 px-2 m-1" href="#"><i class="bi bi-twitter"></i></a>
+                        <a class=" py-1 px-2 m-1" href="#"><i class="pink bi bi-dribbble"></i></i></a>
+                        <a class="py-1 px-2 m-1" href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+
+                    <div class="person__contact__items p-3 m-3">
+                        <div class="contact__items d-flex justify-content-lg-start ">
+                            <i class="phone__icon bi bi-phone  py-1 mt-1 mx-2"></i>
+                            <div class="contact__text">
+                                <span>Phone</span>
+                                <p>+123 456 7890</p>
+                            </div>
+
+                        </div>
+                        <div class="line mx-3 my-2"></div>
+
+
+                        <div class="contact__items d-flex justify-content-start">
+                            <i class="email__icon bi bi-envelope-paper-fill  py-1 mt-1 mx-2"></i>
+                            <div class="contact__text">
+                                <span>Email</span>
+                                <p>example@mail.com
+
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="line mx-3 my-2"></div>
+                        <div class="contact__items d-flex justify-content-start">
+                            <i class="location__icon bi bi-geo-alt-fill  py-1 mt-1 mx-2"></i>
+                            <div class="contact__text">
+                                <span>Location    </span>
+                                <p>Hong kong china </p>
+                            </div>
+
+                        </div>
+                        <div class="line mx-3 my-2"></div>
+                        <div class="contact__items d-flex justify-content-start">
+                            <i class="location__icon bi bi-calendar2-week-fill  py-1 mt-1 mx-2"></i>
+                            <div class="contact__text">
+                                <span>Birthday    </span>
+                                <p>May 27, 1990</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex justify-content-center m-3">
+                        <button><i class="bi bi-download px-1"></i>Download CV</button>
+
+                    </div>
 
                 </div>
-                <footer class="d-flex justify-content-center py-3">
-                    <p>© 2022 All Rights Reserved by ib-themes.</p>
-                </footer>
+
+                <div class="blogs  col-12 col-lg-8 p-0">
+                    <div class="container p-5">
+                        <h2 class="text-light my-3">
+                            Blogs
+                        </h2>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-6 py-4">
+                                <div class="blogs__card px-3">
+                                    <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                                    </div>
+                                    <div class="blogs__card__text">
+                                        <div class="py-3">
+                                            <span>17 april</span>
+                                            <span class="mx-2">Inspiration</span>
+                                        </div>
+                                        <h3 data-bs-toggle="modal" data-bs-target="#exampleModal">How to Own Your Audience by <br> Creating an Email List.</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 py-4">
+                                <div class="blogs__card px-3">
+                                    <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                                    </div>
+                                    <div class="blogs__card__text">
+                                        <div class="py-3">
+                                            <span>17 april</span>
+                                            <span class="mx-2">Inspiration</span>
+                                        </div>
+                                        <h3 data-bs-toggle="modal2" data-bs-target="#exampleModal2">How to Own Your Audience by <br> Creating an Email List.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-6 py-4">
+                                <div class="blogs__card px-3 ">
+                                    <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                                    </div>
+                                    <div class="blogs__card__text">
+                                        <div class="py-3">
+                                            <span>17 april</span>
+                                            <span class="mx-2">Inspiration</span>
+                                        </div>
+                                        <h3 data-bs-toggle="modal" data-bs-target="#exampleModal">How to Own Your Audience by <br> Creating an Email List.</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 py-4">
+                                <div class="blogs__card px-3 ">
+                                    <div style="height:350px" class="blogs__card__img  " data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+                                    </div>
+                                    <div class="blogs__card__text">
+                                        <div class="py-3">
+                                            <span>17 april</span>
+                                            <span class="mx-2">Inspiration</span>
+                                        </div>
+                                        <h3 data-bs-toggle="modal2" data-bs-target="#exampleModal2">How to Own Your Audience by <br> Creating an Email List.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <footer class="d-flex justify-content-center py-3">
+                        <p>© 2022 All Rights Reserved by ib-themes.</p>
+                    </footer>
+
+                </div>
 
             </div>
         </div>
@@ -108,8 +259,8 @@
                 <div class="modal-body ">
 
                     <div class="modal__items">
-                        <div class="">
-                            <img class="img-fluid" src="../images/1.jpg" alt="">
+                        <div class="modal__img">
+                            <img class="img-fluid" src="../images/works-img1.jpg" alt="">
                         </div>
                         <div class="blogs__card__text">
                             <div class="py-3">
@@ -145,15 +296,15 @@
                 <div class="modal-body ">
 
                     <div class="modal__items">
-                        <div class="">
-                            <img class="img-fluid" src="../images/1.jpg" alt="">
+                        <div class="modal__img">
+                            <img class="img-fluid" src="../images/works-img2.jpg" alt="">
                         </div>
                         <div class="blogs__card__text">
                             <div class="py-3">
                                 <span>17 april</span>
                                 <span class="mx-2">Inspiration</span>
                             </div>
-                            <h3 data-bs-toggle="modal" data-bs-target="#exampleModal">How to Own Your Audience by Creating an Email List.</h3>
+                            <h3 data-bs-toggle="modal2" data-bs-target="#exampleModal2">How to Own Your Audience by Creating an Email List.</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem
                                 ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non.</p>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem
@@ -172,8 +323,8 @@
             </div>
         </div>
     </div>
-
-
 </body>
+
+
 
 </html>

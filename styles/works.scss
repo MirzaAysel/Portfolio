@@ -1,103 +1,107 @@
-body {
-     ::-webkit-scrollbar {
-        width: 8px;
-    }
-     ::-webkit-scrollbar-track {
-        background: transparent;
-        padding-right: 5px;
-    }
-     ::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 5px;
-    }
-     ::-webkit-scrollbar-thumb:hover {
-        background: #555;
-        border-radius: 5px;
-    }
-    .works {
-        overflow: hidden;
-        border-radius: 15px;
-        background-color: rgb(17, 17, 17);
-        .works__card {
-            border: 2px solid rgb(33, 36, 37, 0.7);
-            overflow: hidden;
-            // padding-left: 1.25rem;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-radius: 0.725rem;
-            .works__card__text {
-                h3 {
-                    cursor: pointer;
-                    font-size: 21px;
-                    color: white;
-                    &:hover {
-                        color: red;
-                    }
-                }
-                span {
-                    color: #A6A6A6;
-                    font-size: 16px;
-                }
+        body {
+             ::-webkit-scrollbar {
+                width: 8px;
             }
-            .works__card__img {
-                cursor: pointer;
-                background-size: cover;
-                background-position: center;
-                display: flex;
-                justify-content: center;
-                &:hover {
-                    background-size: 220%;
-                    background-repeat: no-repeat;
+             ::-webkit-scrollbar-track {
+                background: transparent;
+                padding-right: 5px;
+            }
+             ::-webkit-scrollbar-thumb {
+                background: #888;
+                border-radius: 5px;
+            }
+             ::-webkit-scrollbar-thumb:hover {
+                background: #555;
+                border-radius: 5px;
+            }
+            .works {
+                @media screen and (max-width: 991px) {
+                    margin-top: -30px;
                 }
-            }
-        }
-        .work__link {
-            ul {
-                li {
-                    font-size: 16px;
-                    color: #A6A6A6;
-                    cursor: pointer;
-                    list-style: none;
-                    margin-left: 30px;
-                }
-            }
-        }
-        footer {
-            background-color: #212425 !important;
-            color: #A6A6A6;
-            font-size: 16px;
-        }
-    }
-    .modal {
-        overflow: hidden !important;
-        color: white;
-        --bs-modal-width: 890px !important;
-        .modal-content {
-            background-color: #323232;
-            border-radius: 15px;
-            position: relative;
-            .modal__icon {
-                position: absolute;
-                right: -20px;
-                font-size: 50px;
-                z-index: 1;
-                top: -40px;
-                cursor: pointer;
-            }
-            .modal-body {
-                height: 550px !important;
-                background-color: #323232;
+                margin-top: 80px;
+                overflow: hidden;
                 border-radius: 15px;
-                overflow-y: auto;
-                overflow-x: hidden;
-                .modal__items {
-                    display: block;
-                    height: 100%;
-                    img {
+                background-color: rgb(17, 17, 17);
+                .works__card {
+                    border: 2px solid rgb(33, 36, 37, 0.7);
+                    overflow: hidden;
+                    // padding-left: 1.25rem;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    border-radius: 0.725rem;
+                    .works__card__text {
+                        h3 {
+                            cursor: pointer;
+                            font-size: 21px;
+                            color: white;
+                            &:hover {
+                                color: red;
+                            }
+                        }
+                        span {
+                            color: #A6A6A6;
+                            font-size: 16px;
+                        }
+                    }
+                    .works__card__img {
+                        cursor: pointer;
+                        background-size: cover;
+                        background-position: center;
+                        display: flex;
+                        justify-content: center;
+                        &:hover {
+                            background-size: 220%;
+                            background-repeat: no-repeat;
+                        }
+                    }
+                }
+                .work__link {
+                    ul {
+                        li {
+                            font-size: 16px;
+                            color: #A6A6A6;
+                            cursor: pointer;
+                            list-style: none;
+                            margin-left: 30px;
+                        }
+                    }
+                }
+                footer {
+                    background-color: #212425 !important;
+                    color: #A6A6A6;
+                    font-size: 16px;
+                }
+            }
+            .modal {
+                overflow: hidden !important;
+                color: white;
+                --bs-modal-width: 890px !important;
+                .modal-content {
+                    background-color: #323232;
+                    border-radius: 15px;
+                    position: relative;
+                    .modal__icon {
+                        position: absolute;
+                        right: -20px;
+                        font-size: 50px;
+                        z-index: 1;
+                        top: -40px;
+                        cursor: pointer;
+                    }
+                    .modal-body {
+                        height: 550px !important;
+                        background-color: #323232;
                         border-radius: 15px;
+                        overflow-y: auto;
+                        overflow-x: hidden;
+                        .modal__items {
+                            display: block;
+                            height: 100%;
+                            img {
+                                border-radius: 15px;
+                            }
+                        }
                     }
                 }
             }
         }
-    }
-}

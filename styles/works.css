@@ -14,9 +14,15 @@ body ::-webkit-scrollbar-thumb:hover {
   border-radius: 5px;
 }
 body .works {
+  margin-top: 80px;
   overflow: hidden;
   border-radius: 15px;
   background-color: rgb(17, 17, 17);
+}
+@media screen and (max-width: 991px) {
+  body .works {
+    margin-top: -30px;
+  }
 }
 body .works .works__card {
   border: 2px solid rgba(33, 36, 37, 0.7);

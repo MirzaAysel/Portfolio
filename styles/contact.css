@@ -1,8 +1,14 @@
 body .bostami__contact {
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 49px;
   border-radius: 15px;
   overflow: hidden;
   background-color: rgb(17, 17, 17);
+}
+@media screen and (max-width: 991px) {
+  body .bostami__contact {
+    margin-top: -30px;
+  }
 }
 body .bostami__contact .bostami__form {
   margin-bottom: 80px !important;

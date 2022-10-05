@@ -78,12 +78,12 @@ body .portfolio .bostami__about .about {
   }
 }
 body .portfolio .bostami__about .about .about__card {
-  border: 2px solid rgba(33, 36, 37, 0.7);
   overflow: hidden;
   padding-left: 1.25rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 5px;
+  border-radius: 0.725rem;
+  border: 2px solid rgba(33, 36, 37, 0.7);
 }
 body .portfolio .bostami__about .about .about__card i {
   font-size: 2.5rem;
@@ -111,7 +111,7 @@ body .portfolio .bostami__about .bostami__person__item {
 }
 @media screen and (min-width: 991px) {
   body .portfolio .bostami__about .bostami__person__item {
-    height: 750px;
+    height: 800px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -181,7 +181,7 @@ body .portfolio .bostami__about .bostami__person__item .person__contact__items {
   border-radius: 15px;
   background-color: #1d1d1d;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items i {
+body .portfolio .bostami__about .bostami__person__item .contact__items i {
   border-radius: 5px;
   text-align: center;
   height: 40px;
@@ -189,25 +189,25 @@ body .portfolio .bostami__about .bostami__person__item .person__contact__items .
   font-size: 20px;
   background-color: #000000;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .phone__icon {
+body .portfolio .bostami__about .bostami__person__item .contact__items .phone__icon {
   color: #e93b81;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .contact__text span {
+body .portfolio .bostami__about .bostami__person__item .contact__items .contact__text span {
   font-weight: bolder;
   font-size: 16px;
   color: #3d3a3a;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .contact__text p {
+body .portfolio .bostami__about .bostami__person__item .contact__items .contact__text p {
   font-size: 16px;
   color: white;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .email__icon {
+body .portfolio .bostami__about .bostami__person__item .contact__items .email__icon {
   color: #6ab5b9;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .contact__items .location__icon {
+body .portfolio .bostami__about .bostami__person__item .contact__items .location__icon {
   color: #FD7590;
 }
-body .portfolio .bostami__about .bostami__person__item .person__contact__items .line {
+body .portfolio .bostami__about .bostami__person__item .line {
   height: 1px;
   width: 85%;
   background-color: #A6A6A6;

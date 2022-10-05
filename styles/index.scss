@@ -1,214 +1,214 @@
-                body {
-                    margin: 0;
-                    background-image: url(../images/bgtwo.jpg);
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-attachment: fixed;
-                    background-size: cover;
-                    overflow-x: hidden;
-                    .portfolio {
-                        .bostami {
-                            background-image: url(../images/bgtwo.jpg);
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-attachment: fixed;
-                            background-size: cover;
-                            width: 100%;
-                            .navbar {
-                                .navbar__top__items {
-                                    background-color: black !important;
-                                }
-                                .navbar__links {
-                                    background-color: rgb(29, 29, 29);
-                                    a {
-                                        font-size: 15px;
-                                        i {
-                                            font-size: 22px;
-                                        }
-                                        &:hover {
-                                            color: #FA5252;
-                                        }
+            body {
+                margin: 0;
+                background-image: url(../images/bgtwo.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                overflow-x: hidden;
+                .portfolio {
+                    .bostami {
+                        background-image: url(../images/bgtwo.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-attachment: fixed;
+                        background-size: cover;
+                        width: 100%;
+                        .navbar {
+                            .navbar__top__items {
+                                background-color: black !important;
+                            }
+                            .navbar__links {
+                                background-color: rgb(29, 29, 29);
+                                a {
+                                    font-size: 15px;
+                                    i {
+                                        font-size: 22px;
                                     }
-                                }
-                            }
-                        }
-                        .bostami__menu__item {
-                            @media screen and (max-width: 1352px) {
-                                margin-right: 20% !important;
-                            }
-                            margin-bottom: -80px;
-                            .bostami__menu__items {
-                                width: 550px;
-                                height: 145px;
-                                background-color: #0D0D0D;
-                                border-radius: 20px;
-                                .menu__link {
-                                    width: 80px;
-                                    height: 80px;
-                                    border-radius: 5px;
-                                    background-color: #212425;
-                                    color: #A6A6A6;
                                     &:hover {
-                                        background: linear-gradient(90deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36, 118, 1) 100%);
-                                        a {
-                                            color: white;
-                                        }
-                                    }
-                                    a {
-                                        color: #A6A6A6;
-                                        align-items: center;
-                                        font-size: 13px;
-                                        text-decoration: none;
-                                        i {
-                                            font-size: 22px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                        .bostami__about {
-                            .about {
-                                @media screen and (max-width: 991px) {
-                                    margin-top: -30px;
-                                }
-                                margin-top: 80px;
-                                border-radius: 15px;
-                                overflow: hidden;
-                                background-color: rgb(17, 17, 17);
-                                .about__card {
-                                    border: 2px solid rgb(33, 36, 37, 0.7);
-                                    overflow: hidden;
-                                    padding-left: 1.25rem;
-                                    padding-top: 1rem;
-                                    padding-bottom: 1rem;
-                                    border-radius: 5px;
-                                    i {
-                                        font-size: 2.5rem;
-                                    }
-                                    p {
-                                        color: #808080;
-                                        line-height: 2rem;
-                                    }
-                                }
-                                .clients {
-                                    background-color: #0D0D0D;
-                                    overflow: hidden;
-                                    border-radius: 15px;
-                                    .swiper {
-                                        width: 700px;
-                                        height: 200px;
-                                    }
-                                }
-                                footer {
-                                    color: #A6A6A6;
-                                    font-size: 16px;
-                                }
-                            }
-                            .bostami__person__item {
-                                @media screen and (min-width: 991px) {
-                                    height: 750px;
-                                }
-                                @media screen and (max-width: 991px) {
-                                    height: 1100px;
-                                    margin-top: -18px;
-                                }
-                                border-radius: 15px;
-                                background-color: rgb(17, 17, 17);
-                                h3 {
-                                    text-align: center;
-                                    color: #A6A6A6;
-                                    background-color: #1D1D1D;
-                                    font-size: 16px;
-                                    padding: 6px 20px;
-                                    margin-right: 80px;
-                                    margin-left: 80px;
-                                    border-radius: 8px;
-                                }
-                                h2 {
-                                    font-size: 26px;
-                                }
-                                .sosial__link {
-                                    a {
-                                        background-color: #212425;
-                                        text-decoration: none;
-                                        border-radius: 5px;
-                                        .pink {
-                                            color: #E14A84 !important;
-                                        }
-                                        i {
-                                            text-align: center;
-                                            font-size: 20px;
-                                        }
-                                    }
-                                }
-                                button {
-                                    margin-top: 40px;
-                                    font-size: 18px;
-                                    border-radius: 15px;
-                                    color: white;
-                                    font-weight: bold;
-                                    border: none;
-                                    padding: 8px 15px;
-                                    background: linear-gradient(90deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36, 118, 1) 100%);
-                                    i {
-                                        font-size: 20px;
-                                    }
-                                }
-                                .person__img {
-                                    @media screen and (min-width: 991px) {
-                                        margin-top: -100px;
-                                    }
-                                    @media screen and (max-width: 991px) {
-                                        padding-top: 50px;
-                                    }
-                                    display: flex;
-                                    justify-content: center;
-                                    img {
-                                        border-radius: 15px;
-                                        width: 240px;
-                                        height: 240px;
-                                    }
-                                }
-                                .person__contact__items {
-                                    border-radius: 15px;
-                                    background-color: #1d1d1d;
-                                    .contact__items {
-                                        i {
-                                            border-radius: 5px;
-                                            text-align: center;
-                                            height: 40px;
-                                            width: 40px;
-                                            font-size: 20px;
-                                            background-color: #000000;
-                                        }
-                                        .phone__icon {
-                                            color: #e93b81;
-                                        }
-                                        .contact__text {
-                                            span {
-                                                font-weight: bolder;
-                                                font-size: 16px;
-                                                color: #3d3a3a;
-                                            }
-                                            p {
-                                                font-size: 16px;
-                                                color: white;
-                                            }
-                                        }
-                                        .email__icon {
-                                            color: #6ab5b9;
-                                        }
-                                        .location__icon {
-                                            color: #FD7590;
-                                        }
-                                    }
-                                    .line {
-                                        height: 1px;
-                                        width: 85%;
-                                        background-color: #A6A6A6;
+                                        color: #FA5252;
                                     }
                                 }
                             }
                         }
                     }
+                    .bostami__menu__item {
+                        @media screen and (max-width: 1352px) {
+                            margin-right: 20% !important;
+                        }
+                        margin-bottom: -80px;
+                        .bostami__menu__items {
+                            width: 550px;
+                            height: 145px;
+                            background-color: #0D0D0D;
+                            border-radius: 20px;
+                            .menu__link {
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 5px;
+                                background-color: #212425;
+                                color: #A6A6A6;
+                                &:hover {
+                                    background: linear-gradient(90deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36, 118, 1) 100%);
+                                    a {
+                                        color: white;
+                                    }
+                                }
+                                a {
+                                    color: #A6A6A6;
+                                    align-items: center;
+                                    font-size: 13px;
+                                    text-decoration: none;
+                                    i {
+                                        font-size: 22px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .bostami__about {
+                        .about {
+                            @media screen and (max-width: 991px) {
+                                margin-top: -30px;
+                            }
+                            margin-top: 80px;
+                            border-radius: 15px;
+                            overflow: hidden;
+                            background-color: rgb(17, 17, 17);
+                            .about__card {
+                                overflow: hidden;
+                                padding-left: 1.25rem;
+                                padding-top: 1rem;
+                                padding-bottom: 1rem;
+                                border-radius: 0.725rem;
+                                border: 2px solid rgba(33, 36, 37, 0.7);
+                                i {
+                                    font-size: 2.5rem;
+                                }
+                                p {
+                                    color: #808080;
+                                    line-height: 2rem;
+                                }
+                            }
+                            .clients {
+                                background-color: #0D0D0D;
+                                overflow: hidden;
+                                border-radius: 15px;
+                                .swiper {
+                                    width: 700px;
+                                    height: 200px;
+                                }
+                            }
+                            footer {
+                                color: #A6A6A6;
+                                font-size: 16px;
+                            }
+                        }
+                        .bostami__person__item {
+                            @media screen and (min-width: 991px) {
+                                height: 800px;
+                            }
+                            @media screen and (max-width: 991px) {
+                                height: 1100px;
+                                margin-top: -18px;
+                            }
+                            border-radius: 15px;
+                            background-color: rgb(17, 17, 17);
+                            h3 {
+                                text-align: center;
+                                color: #A6A6A6;
+                                background-color: #1D1D1D;
+                                font-size: 16px;
+                                padding: 6px 20px;
+                                margin-right: 80px;
+                                margin-left: 80px;
+                                border-radius: 8px;
+                            }
+                            h2 {
+                                font-size: 26px;
+                            }
+                            .sosial__link {
+                                a {
+                                    background-color: #212425;
+                                    text-decoration: none;
+                                    border-radius: 5px;
+                                    .pink {
+                                        color: #E14A84 !important;
+                                    }
+                                    i {
+                                        text-align: center;
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                            button {
+                                margin-top: 40px;
+                                font-size: 18px;
+                                border-radius: 15px;
+                                color: white;
+                                font-weight: bold;
+                                border: none;
+                                padding: 8px 15px;
+                                background: linear-gradient(90deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36, 118, 1) 100%);
+                                i {
+                                    font-size: 20px;
+                                }
+                            }
+                            .person__img {
+                                @media screen and (min-width: 991px) {
+                                    margin-top: -100px;
+                                }
+                                @media screen and (max-width: 991px) {
+                                    padding-top: 50px;
+                                }
+                                display: flex;
+                                justify-content: center;
+                                img {
+                                    border-radius: 15px;
+                                    width: 240px;
+                                    height: 240px;
+                                }
+                            }
+                            .person__contact__items {
+                                border-radius: 15px;
+                                background-color: #1d1d1d;
+                            }
+                            .contact__items {
+                                i {
+                                    border-radius: 5px;
+                                    text-align: center;
+                                    height: 40px;
+                                    width: 40px;
+                                    font-size: 20px;
+                                    background-color: #000000;
+                                }
+                                .phone__icon {
+                                    color: #e93b81;
+                                }
+                                .contact__text {
+                                    span {
+                                        font-weight: bolder;
+                                        font-size: 16px;
+                                        color: #3d3a3a;
+                                    }
+                                    p {
+                                        font-size: 16px;
+                                        color: white;
+                                    }
+                                }
+                                .email__icon {
+                                    color: #6ab5b9;
+                                }
+                                .location__icon {
+                                    color: #FD7590;
+                                }
+                            }
+                            .line {
+                                height: 1px;
+                                width: 85%;
+                                background-color: #A6A6A6;
+                            }
+                        }
+                    }
                 }
+            }

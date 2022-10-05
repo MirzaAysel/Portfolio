@@ -14,9 +14,15 @@ body ::-webkit-scrollbar-thumb:hover {
   border-radius: 5px;
 }
 body .blogs {
+  margin-top: 80px;
   overflow: hidden;
   border-radius: 15px;
   background-color: rgb(17, 17, 17);
+}
+@media screen and (max-width: 991px) {
+  body .blogs {
+    margin-top: -30px;
+  }
 }
 body .blogs .blogs__card {
   border: 2px solid rgba(33, 36, 37, 0.7);
@@ -81,6 +87,10 @@ body .modal .modal-content .modal-body .modal__items {
   display: block;
   height: 100%;
 }
-body .modal .modal-content .modal-body .modal__items img {
+body .modal .modal-content .modal-body .modal__items .modal__img {
+  display: flex !important;
+  justify-content: center !important;
+}
+body .modal .modal-content .modal-body .modal__items .modal__img img {
   border-radius: 15px;
 }/*# sourceMappingURL=blog.css.map */
